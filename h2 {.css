@@ -1,0 +1,74 @@
+h2 {
+    color: rgb(248, 29, 29);
+}
+body {
+  background-color: rgb(8, 0, 246); 
+} 
+p {
+    color: rgb(255, 247, 0);
+} 
+ol {
+    color: yellow;
+}
+ul {
+    color: orange;
+} 
+h1 {
+    position:relative;
+left: 150px;
+}
+
+.l {
+    position: relative;
+    left: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+
+
+
+.links {
+  list-style: none; 
+  display: flex;     
+  gap: 20px;         
+}
+
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+
+.links a:hover,
+.links a.active {
+  color: #ffd700; 
+}
+
+body {
+    position: relative;
+    left:50px;
+}
+.last {
+    position: relative;
+    left:400px;
+    top: 100px;
+}
